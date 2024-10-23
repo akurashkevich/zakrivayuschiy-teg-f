@@ -1,1 +1,52 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --bg-color: #fff;
+  --accent-color: #000;
+  --button-content-color: #fff;
+  --sparks-color: #f00;
+
+  --main-font-family: "Inter-Variable", sans-serif;
+  --accent-font-family: "PressStart2P-Regular", sans-serif;
+
+  --main-font-size-regular: 18px;
+  --accent-font-size-regular: 14px;
+
+  --main-font-weight-regular: 400;
+  --main-font-weight-bold: 700;
+  --accent-font-weight-regular: 400;
+
+  --main-line-height-regular: 1.3125rem;
+  --main-line-height-title: 1.36125rem;
+  --accent-line-height-small: 0.7875rem;
+  --accent-line-height-regular: 0.875rem;
+  --accent-line-height-big: 1.3125rem;
+
+  --bg-gradient-color-start: #e7e7e7;
+  --bg-gradient-color-end: #1a1a1a;
+  --stripe-color: #d3d3d3;
+
+  --bg-gradient-1: repeating-linear-gradient(
+    to right,
+    var(--stripe-color),
+    var(--stripe-color) 2px,
+    transparent 2px,
+    transparent 4px
+  );
+
+  --bg-gradient-2: repeating-linear-gradient(
+    to bottom,
+    var(--stripe-color),
+    var(--stripe-color) 2px,
+    transparent 2px,
+    transparent 4px
+  );
+
+  --bg-gradient-3: linear-gradient(
+    to bottom,
+    var(--bg-gradient-color-start) 0.01%,
+    var(--bg-gradient-color-end) 100%
+  );
+
+  --bg-gradient: var(--bg-gradient-1), var(--bg-gradient-2),
+    var(--bg-gradient-3);
+}
