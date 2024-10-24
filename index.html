@@ -469,29 +469,29 @@
           </li>
         </ul>
       </section>
-    </main>
-    <footer class="footer">
-      <button class="button footer__button" type="button" onclick="window['dialog'].showModal()">
-        <svg class="floppy-icon footer__floppy-icon" viewBox="0 0 39 39" fill="currentColor">
-          <use href="./svg/floppy.svg#floppy" aria-hidden="true"></use>
-        </svg>
-        <span class="button__text">Сохранить на память</span>
-      </button>
-      <dialog class="dialog" id="dialog">
-        <div class="dialog__content">
-          <svg class="floppy-icon dialog__floppy-icon" viewBox="0 0 39 39" fill="currentColor">
+      <div class="save">
+        <button class="button save__button" type="button" onclick="window['dialog'].showModal()">
+          <svg class="floppy-icon save__floppy-icon" viewBox="0 0 39 39" fill="currentColor">
             <use href="./svg/floppy.svg#floppy" aria-hidden="true"></use>
           </svg>
-          <span class="dialog__text">Вставьте
-            дискету, чтобы продолжить</span>
-        </div>
-        <form method="dialog">
-          <button class="button dialog__button">
-            <span class="button__text">ОК</span>
-          </button>
-        </form>
-      </dialog>
-    </footer>
+          <span class="button__text">Сохранить на память</span>
+        </button>
+        <dialog class="dialog" id="dialog">
+          <div class="dialog__content">
+            <svg class="floppy-icon dialog__floppy-icon" viewBox="0 0 39 39" fill="currentColor">
+              <use href="./svg/floppy.svg#floppy" aria-hidden="true"></use>
+            </svg>
+            <p class="dialog__text">Вставьте
+              дискету, чтобы продолжить</p>
+          </div>
+          <form method="dialog">
+            <button class="button dialog__button">
+              <span class="button__text">ОК</span>
+            </button>
+          </form>
+        </dialog>
+      </div>
+    </main>
     <script src="./scripts/like.js"></script>
   </body>
 </html>
