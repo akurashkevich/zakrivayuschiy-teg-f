@@ -7,7 +7,7 @@
 
 @font-face {
   font-family: "Inter-Variable";
-  src: url(./Inter-Variable.woff2) format("woff");
-  font-weight: 400 465 700 785;
+  src: url(./Inter-Variable.woff2) format("woff2-variations");
+  font-weight: 400 785;
   font-display: swap;
 }
