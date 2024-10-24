@@ -192,7 +192,6 @@
 
 .card__icon-button {
   display: flex;
-  border: none;
   border: 2px solid transparent;
   padding: 0;
   background-color: transparent;
