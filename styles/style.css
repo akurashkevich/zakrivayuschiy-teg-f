@@ -166,17 +166,17 @@
 
 .card__image {
   display: block;
+  object-fit: cover;
   max-inline-size: 100%;
   block-size: auto;
-  object-fit: cover;
 }
 
 .card__body {
   display: flex;
   flex-direction: column;
   gap: 25px;
-  padding: 25px;
   border-block-start: 2px solid var(--accent-color);
+  padding: 25px;
 }
 
 .card__text-container {
@@ -193,11 +193,13 @@
 
 .card__icon-button {
   display: flex;
+  place-content: center;
   border: 2px solid transparent;
   padding: 0;
   background-color: transparent;
   transition: border 0.3s ease;
   cursor: pointer;
+  block-size: 38px;
 }
 
 .card__icon-button:focus {
@@ -287,12 +289,12 @@
 }
 
 .dialog[open] {
-  background-color: var(--bg-color);
-  color: var(--accent-color);
   display: grid;
-  gap: 20px;
   grid-template-rows: min-content min-content;
+  gap: 20px;
   padding: 30px;
+  color: var(--accent-color);
+  background-color: var(--bg-color);
   max-inline-size: 357px;
 }
 
